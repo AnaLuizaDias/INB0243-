@@ -2,4 +2,5 @@
 .local
 .ssh
 .git
+Git.log
 .gnupg
