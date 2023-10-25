@@ -17,3 +17,6 @@
 2023-10-25 12:32:31.642 [info] [127.0.0.1][51213332][ExtensionHostConnection] New connection established.
 2023-10-25 12:32:31.645 [info] [127.0.0.1][51213332][ExtensionHostConnection] <1012> Launched Extension Host Process.
 2023-10-25 12:37:31.554 [info] New EH opened, aborting shutdown
+2023-10-25 13:54:22.730 [info] [127.0.0.1][82b4dad3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-10-25 13:54:22.862 [info] [127.0.0.1][51213332][ExtensionHostConnection] <1012> Extension Host Process exited with code: 0, signal: null.
+2023-10-25 13:54:22.862 [info] Last EH closed, waiting before shutting down

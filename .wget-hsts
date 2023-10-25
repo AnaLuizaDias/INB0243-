@@ -2,3 +2,6 @@
 # Edit at your own risk.
 # <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
 update.code.visualstudio.com	0	0	1694631823	31536000
+media-manager.noticiasaominuto.com.br	0	0	1698262851	31536000
+www.guiaviagensbrasil.com	0	1	1698262844	2592000
+www.civitatis.com	0	0	1698262845	31557600
