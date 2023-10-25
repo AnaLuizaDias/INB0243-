@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&display=swap');
+.li {
+    color: white;
+}
+.cor1{
+    background-color: #003B95;
+}
+.cor2{
+    background-color: #544eff;
+}
+
+body{
+    background-color: #544eff ;
+}
+.cor3{
+    background-color: #8F8CDB;
+}
+.teste {
+    font-family: Arial, sans;
+    color:white;
+}
+
+a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+}
+.navbar-brand {
+    font-size: 30px;
+}
+cardy-body{
+    padding: 20px;
+}
+.card1{
+   width: 30%;
+}
+.foto1{
+    width:50%;
+}
+.direita{
+    float: right;
+    width: 50%;
+    padding-left: 5%;
+    text-align: justify;
+}
+.esquerda{
+    text-align: justify;
+}
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    font-family:'Times New Roman', Times, serif
+  }
+  
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  h1, label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .cor{
+     color: #fff;
+ }
+ .font{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .conta{
+    padding: 20px;
+ }
+ .ola{
+    padding:20px;
+ }
+.formulario{
+    padding:20px;
+}
+h3{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+ .localizacao{
+    align-content: center;
+    padding-left: 30px;
+ }

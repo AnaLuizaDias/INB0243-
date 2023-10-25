@@ -1,0 +1,71 @@
+2023-09-13 16:03:52.967 [info] 
+
+
+
+
+2023-09-13 16:03:52.967 [info] Extension host agent started.
+2023-09-13 16:03:53.005 [info] Started initializing default profile extensions in extensions installation folder. file:///var/www/html/.vscode-server/extensions
+2023-09-13 16:03:53.035 [info] [127.0.0.1][c3ba27e3][ManagementConnection] New connection established.
+2023-09-13 16:03:53.054 [info] [127.0.0.1][e0370e24][ExtensionHostConnection] New connection established.
+2023-09-13 16:03:53.226 [info] [127.0.0.1][e0370e24][ExtensionHostConnection] <684> Launched Extension Host Process.
+2023-09-13 16:03:53.949 [info] Installing extensions...
+2023-09-13 16:03:53.970 [info] Completed initializing default profile extensions in extensions installation folder. file:///var/www/html/.vscode-server/extensions
+2023-09-13 16:03:54.711 [info] Installing extension 'ms-ceintl.vscode-language-pack-pt-br'...
+2023-09-13 16:03:55.022 [info] Getting Manifest... ms-ceintl.vscode-language-pack-pt-br
+2023-09-13 16:03:55.097 [info] Installing extension: ms-ceintl.vscode-language-pack-pt-br
+2023-09-13 16:03:56.280 [error] CodeExpectedError: Could not find pty on pty host
+    at g.O (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:28:7243)
+    at g.updateTitle (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:28:2685)
+    at g.Q.<computed> (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:27:22460)
+    at Object.call (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:17:4866)
+    at u.s (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at u.q (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at E.w (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at E.fire (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.G (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:8:27085)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-09-13 16:03:56.311 [error] CodeExpectedError: Could not find pty on pty host
+    at g.O (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:28:7243)
+    at g.updateIcon (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:28:2735)
+    at g.Q.<computed> (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:27:22460)
+    at Object.call (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:17:4866)
+    at u.s (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at u.q (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at E.w (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at E.fire (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.G (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:8:27085)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-09-13 16:03:57.186 [info] Extension signature is verified: ms-ceintl.vscode-language-pack-pt-br
+2023-09-13 16:03:57.290 [info] Extracted extension to /var/www/html/.vscode-server/extensions/.affce011-1c3e-44c7-88d5-c5c64ae00414: ms-ceintl.vscode-language-pack-pt-br
+2023-09-13 16:03:57.341 [info] Renamed to /var/www/html/.vscode-server/extensions/ms-ceintl.vscode-language-pack-pt-br-1.80.2023071209
+2023-09-13 16:03:57.351 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-pt-br
+2023-09-13 16:03:57.359 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-pt-br
+2023-09-13 16:03:57.432 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-pt-br
+2023-09-13 16:03:57.432 [info] Extension 'ms-ceintl.vscode-language-pack-pt-br' v1.80.2023071209 was successfully installed.
+2023-09-13 16:08:52.910 [info] New EH opened, aborting shutdown
+2023-09-13 16:17:42.998 [info] [127.0.0.1][08e24481][ManagementConnection] New connection established.
+2023-09-13 16:17:42.999 [info] [127.0.0.1][67ef49cf][ExtensionHostConnection] New connection established.
+2023-09-13 16:17:43.003 [info] [127.0.0.1][67ef49cf][ExtensionHostConnection] <802> Launched Extension Host Process.
+2023-09-13 16:17:51.377 [info] [127.0.0.1][08e24481][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-09-13 16:17:51.390 [info] [127.0.0.1][67ef49cf][ExtensionHostConnection] <802> Extension Host Process exited with code: 0, signal: null.
+2023-09-13 16:17:52.301 [info] [127.0.0.1][eb38097f][ManagementConnection] New connection established.
+2023-09-13 16:17:52.303 [info] [127.0.0.1][d3c2eb8a][ExtensionHostConnection] New connection established.
+2023-09-13 16:17:52.308 [info] [127.0.0.1][d3c2eb8a][ExtensionHostConnection] <837> Launched Extension Host Process.
+2023-09-13 16:44:18.529 [info] [127.0.0.1][eb38097f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-09-13 16:44:18.559 [info] [127.0.0.1][d3c2eb8a][ExtensionHostConnection] <837> Extension Host Process exited with code: 0, signal: null.
+2023-09-13 16:44:19.594 [info] [127.0.0.1][66eccd6f][ManagementConnection] New connection established.
+2023-09-13 16:44:19.596 [info] [127.0.0.1][e9511b62][ExtensionHostConnection] New connection established.
+2023-09-13 16:44:19.601 [info] [127.0.0.1][e9511b62][ExtensionHostConnection] <1208> Launched Extension Host Process.
+2023-09-13 16:55:02.504 [info] [127.0.0.1][66eccd6f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-09-13 16:55:02.553 [info] [127.0.0.1][e9511b62][ExtensionHostConnection] <1208> Extension Host Process exited with code: 0, signal: null.
+2023-09-13 16:55:03.561 [info] [127.0.0.1][2f5c73d7][ManagementConnection] New connection established.
+2023-09-13 16:55:03.562 [info] [127.0.0.1][a799cb9a][ExtensionHostConnection] New connection established.
+2023-09-13 16:55:03.569 [info] [127.0.0.1][a799cb9a][ExtensionHostConnection] <1472> Launched Extension Host Process.
+2023-09-13 16:55:05.146 [info] [127.0.0.1][2f5c73d7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-09-13 16:55:05.284 [info] [127.0.0.1][a799cb9a][ExtensionHostConnection] <1472> Extension Host Process exited with code: 0, signal: null.

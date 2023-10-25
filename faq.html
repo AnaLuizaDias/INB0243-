@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel='stylesheet' href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body style="background-color:white;">
+
+    <nav class="navbar navbar-expand-lg navbar-light cor1 ">
+        <div class="container-fluid 4">
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light cor1 ">
+        <div class="container-fluid 4">
+            <img src="images/booking.png" alt="Imagem" height="42" width="150">
+            <a class="navbar-brand text-white" href=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">PÁGINA INICIAL</a>
+                    </li>
+                    <li class="nav-item teste">
+                        <a class="nav-link text-white" href="login.html">LOGIN</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarScrollingDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            SERVIÇOS
+                        </a>
+                        <ul class="dropdown-menu " aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item " href="pass.html">PASSAGENS</a></li>
+                            <li><a class="dropdown-item" href="hot.html">HOSPEDAGEM</a></li>
+                            <li><a class="dropdown-item" href="loc.html">LOCOMOÇÃO</a></li>
+                            <li><a class="dropdown-item" href="localizacao.html">LOCALIZAÇÃO</a></li>
+                            <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                            <li><a class="dropdown-item" href="contato.html">CONTATO</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="relat.html">EXPERIÊNCIAS</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item text-white">
+                        <a class="nav-link disabled"></a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="PROCURE" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">PESQUISE</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+    <br><br>
+
+    <main class="container">
+        <h1 class="visually-hidden"></h1>
+        <div class="container px-4 py-5" id="featured-3">
+            <h2 class="pb-2 border-bottom">Dúvidas Frequentes </h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="feature col">
+                    <div class="feature-icon bg-primary bg-gradient">
+                        <svg class="bi" width="1em" height="1em">
+                            <use xlink:href="#collection" />
+                        </svg>
+                    </div>
+                    <h2>Como posso pedir um recibo?</h2>
+                    <p> Por favor, acesse seu e-mail de confirmação ou a página de confirmação da reserva e clique em
+                        'Solicitar fatura'. Preencha o formulário e envie seu pedido. Caso não veja o link, por favor,
+                        acesse a Central de Ajuda.
+
+                        Você receberá sua fatura após o check-out. O e-mail será enviado pela Booking.com ou por uma
+                        empresa parceira.
+
+                        Observe que não é possível obter uma fatura entrando em contato com a acomodação, uma vez que a
+                        empresa parceira emite a fatura e a envia para você diretamente, ou por meio da Booking.com.</p>
+                </div>
+                <div class="feature col">
+                    <div class="feature-icon bg-primary bg-gradient">
+                        <svg class="bi" width="1em" height="1em">
+                            <use xlink:href="#people-circle" />
+                        </svg>
+                    </div>
+                    <h2>Recebi uma cobrança indevida. O que devo fazer?</h2>
+                    <p> Caso você tenha recebido uma cobrança indevida da Booking.com: por favor, visite a Central de
+                        Ajuda. É possível que a gente precise de uma cópia do seu extrato bancário mostrando a cobrança
+                        indevida, além do número de confirmação e o código PIN da sua reserva.
+
+                        Caso você tenha recebido uma cobrança indevida da acomodação: por favor, entre em contato
+                        diretamente com eles.</p>
+                </div>
+                <div class="feature col">
+                    <div class="feature-icon bg-primary bg-gradient">
+                        <svg class="bi" width="1em" height="1em">
+                            <use xlink:href="#toggles2" />
+                        </svg>
+                    </div>
+                    <h2>Onde posso encontrar a confirmação de que paguei por minha reserva?</h2>
+                    <p>Você encontrará a confirmação de pagamento no seu e-mail de confirmação. No e-mail, também existe
+                        a opção de fazer o download da confirmação de pagamento em PDF.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+        <div class="b-example-divider bg-dark"></div>
+
+        <div class="card text-center ">
+            <div class="card-body btn btn-dark">
+                <h5 class="card-title">CONTATO</h5>
+                <p class="card-text">Veja aqui nossas redes sociais!<br>
+                    <a href="https://www.youtube.com/?hl=pt&gl=BR" class="btn btn-danger">Youtube</a>
+                    <a href="https://pt-br.facebook.com/" class="btn btn-primary">Facebook</a>
+                    <a href="https://web.whatsapp.com/" class="btn btn-success">Whatsapp</a>
+                    <a href="https://twitter.com/login?lang=pt" class="btn btn-info">Twitter</a>
+            </div>
+        </div>
+</body>
