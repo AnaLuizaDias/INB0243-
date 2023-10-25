@@ -475,3 +475,15 @@
 	at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:730:12)
 2023-10-25 13:30:17.319 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1641
 2023-10-25 13:30:18.151 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1641
+2023-10-25 13:30:19.228 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1641
+2023-10-25 13:30:19.300 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1641
+2023-10-25 13:30:24.389 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1641
+2023-10-25 13:30:29.474 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1641
+2023-10-25 13:30:34.628 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1641
+2023-10-25 13:30:39.770 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1641
+2023-10-25 13:30:44.851 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1641
+2023-10-25 13:30:49.933 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1641
+2023-10-25 13:30:54.637 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1641
+2023-10-25 13:30:58.445 [warning] Using default string since no string found in i18n bundle that has the key: There are no staged changes to commit.
+
+Would you like to stage all your changes and commit them directly?
