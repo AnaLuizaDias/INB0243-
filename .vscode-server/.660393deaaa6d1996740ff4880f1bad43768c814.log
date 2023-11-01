@@ -5,18 +5,18 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to 127.0.0.1:44349 (IPv4)
-Extension host agent listening on 44349
+Server bound to 127.0.0.1:43723 (IPv4)
+Extension host agent listening on 43723
 
-[15:29:52] 
-
-
+[15:19:02] 
 
 
-[15:29:52] Extension host agent started.
-[15:29:52] [127.0.0.1][8789ec91][ManagementConnection] New connection established.
-[15:29:52] [127.0.0.1][87b2c649][ExtensionHostConnection] New connection established.
-[15:29:52] [127.0.0.1][87b2c649][ExtensionHostConnection] <779> Launched Extension Host Process.
+
+
+[15:19:02] Extension host agent started.
+[15:19:02] [127.0.0.1][263249f3][ManagementConnection] New connection established.
+[15:19:02] [127.0.0.1][1077f2e0][ExtensionHostConnection] New connection established.
+[15:19:02] [127.0.0.1][1077f2e0][ExtensionHostConnection] <916> Launched Extension Host Process.
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
   '-c',
   'wget --version > /dev/null\n' +
@@ -77,19 +77,19 @@ Extension host agent listening on 44349
     'fi\n' +
     'exit 0'
 ]
-[15:30:07] [127.0.0.1][8789ec91][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[15:30:07] [127.0.0.1][87b2c649][ExtensionHostConnection] <779> Extension Host Process exited with code: 0, signal: null.
+[15:19:13] [127.0.0.1][263249f3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:19:13] [127.0.0.1][1077f2e0][ExtensionHostConnection] <916> Extension Host Process exited with code: 0, signal: null.
 Cancelling previous shutdown timeout
-[15:30:07] Cancelling previous shutdown timeout
+[15:19:13] Cancelling previous shutdown timeout
 Last EH closed, waiting before shutting down
-[15:30:07] Last EH closed, waiting before shutting down
+[15:19:13] Last EH closed, waiting before shutting down
 Got delay-shutdown request while in shutdown timeout, delaying
-[15:30:13] Got delay-shutdown request while in shutdown timeout, delaying
+[15:19:24] Got delay-shutdown request while in shutdown timeout, delaying
 Cancelling previous shutdown timeout
-[15:30:13] Cancelling previous shutdown timeout
-[15:30:13] [127.0.0.1][17f4098f][ManagementConnection] New connection established.
-[15:30:13] [127.0.0.1][9559a444][ExtensionHostConnection] New connection established.
-[15:30:13] [127.0.0.1][9559a444][ExtensionHostConnection] <880> Launched Extension Host Process.
+[15:19:24] Cancelling previous shutdown timeout
+[15:19:24] [127.0.0.1][67ff5d41][ManagementConnection] New connection established.
+[15:19:24] [127.0.0.1][559be877][ExtensionHostConnection] New connection established.
+[15:19:24] [127.0.0.1][559be877][ExtensionHostConnection] <1017> Launched Extension Host Process.
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
   '-c',
   'wget --version > /dev/null\n' +
@@ -150,5 +150,3 @@ Cancelling previous shutdown timeout
     'fi\n' +
     'exit 0'
 ]
-New EH opened, aborting shutdown
-[15:35:13] New EH opened, aborting shutdown
